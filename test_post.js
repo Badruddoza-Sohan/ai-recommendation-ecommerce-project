@@ -1,0 +1,1 @@
+fetch('http://localhost:3000/api/trpc/seller.handoverOrder', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ 0: { json: { orderId: 36, courierName: 'Pathao', trackingNumber: 'TRK123' } } }) }).then(res => res.json()).then(console.log).catch(console.error);

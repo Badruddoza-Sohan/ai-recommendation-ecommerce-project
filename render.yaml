@@ -1,0 +1,23 @@
+services:
+  # ── Web Service ──────────────────────────────────────────────
+  - type: web
+    name: ecommerce-app
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: DATABASE_URL
+        sync: false   # Set this manually in Render dashboard
+      - key: APP_SECRET
+        generateValue: true
+      - key: APP_ID
+        value: ecommerce_prod
+      - key: CORS_ORIGIN
+        sync: false   # Set to your Render URL after first deploy, e.g. https://ecommerce-app.onrender.com
+      - key: OWNER_UNION_ID
+        value: "local:01700000006"
