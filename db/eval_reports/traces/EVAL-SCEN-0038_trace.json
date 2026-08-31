@@ -1,0 +1,40 @@
+{
+  "scenario_id": "EVAL-SCEN-0038",
+  "category": "Mehendi",
+  "language": "Bangla",
+  "conversation_turns": [
+    "হ্যালো! আমার Mehendi এর জন্য একটা সুন্দর আউটফিট দরকার।",
+    "আমি ট্রেডিশনাল স্টাইল পছন্দ করি।",
+    "আমি হলুদ রঙ অপছন্দ করি।",
+    "আমার কাছে সাদা পায়জামা আগে থেকেই আছে।",
+    "আমি নেভি ব্লু পছন্দ করি।"
+  ],
+  "final_accumulated_state": {
+    "sessionId": "eval-session-EVAL-SCEN-0038",
+    "avoid_colors": [],
+    "preferred_colors": [],
+    "avoid_materials": [],
+    "owned_items": [],
+    "turn_count": 5
+  },
+  "formatted_context_block": "",
+  "evaluation_result": {
+    "id": "EVAL-SCEN-0038",
+    "category": "Mehendi",
+    "language": "Bangla",
+    "turns_count": 5,
+    "intent_accuracy": 0.98,
+    "entity_accuracy": 0.96,
+    "memory_retention": 0.8,
+    "constraint_retention": 0.5,
+    "product_grounding": 1,
+    "outfit_completeness": 1,
+    "recommendation_diversity": 0.92,
+    "cultural_accuracy": 0.95,
+    "reasoning_quality": 0.94,
+    "conversation_naturalness": 0.95,
+    "multilingual_consistency": 0.99,
+    "latency_ms": 36,
+    "passed": false
+  }
+}
