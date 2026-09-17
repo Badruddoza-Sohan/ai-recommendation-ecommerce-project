@@ -1,1 +1,0 @@
-const mysql = require('mysql2/promise'); async function run() { const conn = await mysql.createConnection('mysql://root:Mafia666@localhost:3306/ecommerce_db'); const [n] = await conn.execute('SELECT * FROM notifications WHERE userId = 11'); console.log('Notifications:', n); process.exit(0); } run();
