@@ -1,0 +1,105 @@
+{
+  "colorMatches": {
+    "white": {
+      "pants": ["Navy", "Black", "Khaki", "Gray", "Beige"],
+      "shoes": ["Black", "Brown", "White Sneakers"],
+      "watches": ["Brown Leather Watch", "Black Watch", "Silver Metal Watch"],
+      "belt": ["Black", "Brown"]
+    },
+    "black": {
+      "pants": ["Black", "Gray", "White", "Charcoal"],
+      "shoes": ["Black", "White Sneakers"],
+      "watches": ["Black Leather Watch", "Black Metal Watch"],
+      "belt": ["Black"]
+    },
+    "navy blue": {
+      "pants": ["White", "Khaki", "Gray", "Beige", "Light Blue"],
+      "shoes": ["Brown", "Tan", "White Sneakers"],
+      "watches": ["Brown Leather Watch", "Tan Watch"],
+      "belt": ["Brown", "Tan"]
+    },
+    "light blue": {
+      "pants": ["Navy", "White", "Khaki", "Gray"],
+      "shoes": ["Brown", "Tan", "White"],
+      "watches": ["Brown Leather Watch", "Tan Watch"],
+      "belt": ["Brown", "Tan"]
+    },
+    "gray": {
+      "pants": ["Black", "Navy", "White", "Charcoal"],
+      "shoes": ["Black", "White", "Gray"],
+      "watches": ["Black Leather Watch", "Brown Leather Watch"],
+      "belt": ["Black", "Brown"]
+    },
+    "beige": {
+      "pants": ["Navy", "Brown", "Olive", "White"],
+      "shoes": ["Brown", "Tan"],
+      "watches": ["Brown Leather Watch"],
+      "belt": ["Brown", "Tan"]
+    },
+    "khaki": {
+      "pants": ["Navy", "Brown", "Olive", "White"],
+      "shoes": ["Brown", "Tan"],
+      "watches": ["Brown Leather Watch"],
+      "belt": ["Brown", "Tan"]
+    },
+    "maroon": {
+      "pants": ["Navy", "Khaki", "Gray", "White"],
+      "shoes": ["Brown", "Black"],
+      "watches": ["Brown Leather Watch"],
+      "belt": ["Brown", "Black"]
+    },
+    "olive green": {
+      "pants": ["Khaki", "Navy", "Brown", "Beige"],
+      "shoes": ["Brown", "Tan", "Olive"],
+      "watches": ["Brown Leather Watch"],
+      "belt": ["Brown", "Tan"]
+    },
+    "pastel": {
+      "pants": ["White", "Khaki", "Navy", "Gray"],
+      "shoes": ["White", "Tan"],
+      "watches": ["Brown Leather Watch", "Tan Watch"],
+      "belt": ["Brown", "Tan"]
+    },
+    "bright": {
+      "pants": ["White", "Black", "Gray", "Navy", "Khaki"],
+      "shoes": ["Black", "Brown", "White Sneakers"],
+      "watches": ["Black Watch", "Silver Metal Watch"],
+      "belt": ["Black", "Brown"]
+    }
+  },
+  "shirtToPant": {
+    "black": ["Beige", "Khaki", "Cream", "White", "Light Gray", "Olive"],
+    "white": ["Black", "Navy", "Gray", "Olive", "Beige", "Khaki", "Brown"],
+    "navy": ["Beige", "White", "Gray", "Cream", "Khaki"],
+    "light blue": ["Navy", "Black", "Gray", "Beige"],
+    "sky blue": ["Navy", "White", "Khaki", "Gray"],
+    "maroon": ["Beige", "Black", "Charcoal", "Cream"],
+    "olive": ["Beige", "Cream", "Black", "Light Gray"],
+    "pink": ["Navy", "Gray", "White", "Beige"],
+    "gray": ["Black", "Navy", "White", "Olive"],
+    "beige": ["Navy", "Black", "Olive", "Brown"]
+  },
+  "pantToShirt": {
+    "black": ["White", "Beige", "Light Blue", "Olive", "Gray", "Pink", "Maroon"],
+    "navy": ["White", "Sky Blue", "Beige", "Pink", "Cream"],
+    "beige": ["Navy", "Black", "Olive", "White", "Sky Blue"],
+    "gray": ["White", "Black", "Light Blue", "Navy", "Maroon"],
+    "khaki": ["White", "Navy", "Olive", "Light Blue"],
+    "white": ["Navy", "Black", "Olive", "Maroon", "Sky Blue"]
+  },
+  "shoeRules": {
+    "black pants + white shirt": ["White Sneakers", "Black Loafers", "Brown Loafers"],
+    "navy pants + white shirt": ["Brown Loafers", "White Sneakers"],
+    "beige pants + black shirt": ["White Sneakers", "Brown Sneakers", "Black Loafers"]
+  },
+  "watches": {
+    "formal": ["Silver Watch", "Black Leather Watch"],
+    "casual": ["Smart Watch", "Minimal Analog Watch"],
+    "party": ["Stainless Steel Watch", "Luxury Chronograph"]
+  },
+  "gadgets": {
+    "laptop": ["Programming", "Gaming", "Student", "Office", "Video Editing", "AI / Machine Learning"],
+    "smartphone": ["Camera", "Gaming", "Battery", "Balanced Performance"],
+    "pc": ["Gaming", "Programming", "Office", "Video Editing", "AI / ML"]
+  }
+}
